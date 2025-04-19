@@ -31,7 +31,7 @@ project-root/
 
 Запуск SQL файла:
 
-![Запуск SQL файла](images/sql_run_example.png)
+![Запуск SQL файла](images/sql_example.png)
 
 
 ### Порядок запуска скриптов:
