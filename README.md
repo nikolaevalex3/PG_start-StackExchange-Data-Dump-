@@ -198,7 +198,7 @@ ON stackexchange_data.posttags(TagId);
 
 ### Логика запроса
 
-SQL-запрос находится в файле [`Q1_with_PostTags.sql`](scripts/Q1_with_PostTags.sql).
+Первый созданный SQL-запрос находится в файле [`Q1_with_PostTags.sql`](scripts/Q1_with_PostTags.sql).
 
 - Запрос объединяет таблицы `Posts`, `PostTags`, `Tags`, `Users`, чтобы получить все нужные данные.
 - Через `JOIN` создаются пары тегов, исключая сам `postgresql`, так как:
