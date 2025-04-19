@@ -1,0 +1,10 @@
+BEGIN;
+\copy stackexchange_data.users FROM 'output/users_cleaned.csv' CSV HEADER ENCODING 'utf-8';
+\copy stackexchange_data.badges FROM 'output/badges_cleaned.csv' CSV HEADER ENCODING 'utf-8';
+\copy stackexchange_data.posts FROM 'output/posts_cleaned.csv' CSV HEADER ENCODING 'utf-8';
+\copy stackexchange_data.postlinks FROM 'output/postlinks_cleaned.csv' CSV HEADER ENCODING 'utf-8';
+\copy stackexchange_data.posthistory FROM 'output/posthistory_cleaned.csv' CSV HEADER ENCODING 'utf-8';
+\copy stackexchange_data.comments FROM 'output/comments_cleaned.csv' CSV HEADER ENCODING 'utf-8';
+\copy stackexchange_data.tags FROM 'output/tags_cleaned.csv' CSV HEADER ENCODING 'utf-8';
+\copy stackexchange_data.votes FROM 'output/votes_cleaned.csv' CSV HEADER ENCODING 'utf-8';
+COMMIT;
