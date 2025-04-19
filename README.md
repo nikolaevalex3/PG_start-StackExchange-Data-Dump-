@@ -27,7 +27,7 @@ project-root/
 
 ![Запуск Python файла](https://drive.google.com/uc?export=view&id=1s3QN8Wg9tDmt1C19R6WBt6CsiMcKoxCy)
 
-![Запуск SQL файла](images/Снимок экрана (653).png)
+![Запуск SQL файла](images/sql_run_example.png)
 
 
 ### Порядок запуска скриптов:
