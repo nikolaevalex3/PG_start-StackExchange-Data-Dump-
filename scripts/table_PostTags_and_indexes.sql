@@ -28,12 +28,11 @@ ADD CONSTRAINT Fk_PostTags_Posts FOREIGN KEY (PostId)
 ALTER TABLE stackexchange_data.PostTags
 ADD CONSTRAINT Fk_PostTags_Tags FOREIGN KEY (TagId)
     REFERENCES stackexchange_data.Tags (Id);
-   
+
+
 -- Индексы для таблицы PostTags
 CREATE INDEX IF NOT EXISTS idx_posttags_postid_tagid ON stackexchange_data.PostTags (PostId, TagId);
 CREATE INDEX IF NOT EXISTS idx_posttags_tagid ON stackexchange_data.posttags(tagid);
-
-
 
 -- Индексы для таблицы badges
 CREATE INDEX IF NOT EXISTS idx_badges_userid ON stackexchange_data.badges (UserId);
@@ -51,6 +50,10 @@ WHERE ParentId IS NOT NULL;
 CREATE INDEX IF NOT EXISTS idx_posts_owneruserid ON stackexchange_data.posts (owneruserid);
 
 CREATE INDEX IF NOT EXISTS idx_posts_score ON stackexchange_data.posts(score);
+
+CREATE EXTENSION IF NOT EXISTS pg_trgm;
+CREATE INDEX IF NOT EXISTS tags_trgm_idx ON stackexchange_data.posts
+USING GIN (tags gin_trgm_ops);
 
 -- Индексы для таблицы PostLinks
 CREATE INDEX IF NOT EXISTS idx_postlinks_postid ON stackexchange_data.PostLinks (PostId);
