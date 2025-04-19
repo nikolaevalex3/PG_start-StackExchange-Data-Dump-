@@ -24,9 +24,9 @@ project-root/
 ```
 ### Пример запуска скриптов
 Скрипты удобно запускать из корневой директории проекта, чтобы не указывать полные пути до файлов.
-![Запуск Python файла](https://drive.google.com/drive/folders/1C3FNsLysRJbxGyegAaU0pW_XRVLxV0z_?hl=ru)
+![Запуск Python файла](https://drive.google.com/uc?export=view&id=1s3QN8Wg9tDmt1C19R6WBt6CsiMcKoxCy)
 
-![Запуск SQL файла](https://drive.google.com/drive/folders/1C3FNsLysRJbxGyegAaU0pW_XRVLxV0z_?hl=ru)
+![Запуск SQL файла](https://drive.google.com/uc?export=view&id=1YFlMgdaP5t0IBw7oz-vzHrlUbsMeGeyY)
 
 
 ### Порядок запуска скриптов:
