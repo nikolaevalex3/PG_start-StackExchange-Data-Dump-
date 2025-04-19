@@ -28,6 +28,7 @@ project-root/
 ![Запуск Python файла](images/python_run_example.png)
 
 Запуск SQL файла:
+
 ![Запуск SQL файла](images/sql_run_example.png)
 
 
