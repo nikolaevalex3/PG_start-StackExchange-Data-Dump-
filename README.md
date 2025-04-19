@@ -17,7 +17,7 @@
 project-root/
 ├── main/           # дамп dba.stackexchange.com
 ├── meta/           # дамп dba.meta.stackexchange.com
-├── fields.py
+├── data_import.sql
 ├── xml_to_csv.py
 ├── cleaning_files.py
 ├── ...
