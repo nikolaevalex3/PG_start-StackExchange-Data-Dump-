@@ -51,6 +51,8 @@ CREATE INDEX IF NOT EXISTS idx_posts_owneruserid ON stackexchange_data.posts (ow
 
 CREATE INDEX IF NOT EXISTS idx_posts_score ON stackexchange_data.posts(score);
 
+CREATE INDEX IF NOT EXISTS idx_posts_posttypeid ON stackexchange_data.posts (posttypeid);
+
 CREATE EXTENSION IF NOT EXISTS pg_trgm;
 CREATE INDEX IF NOT EXISTS tags_trgm_idx ON stackexchange_data.posts
 USING GIN (tags gin_trgm_ops);
