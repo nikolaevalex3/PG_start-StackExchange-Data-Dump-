@@ -22,6 +22,13 @@ project-root/
 ├── cleaning_files.py
 ├── ...
 ```
+### Пример запуска скриптов
+Скрипты удобно запускать из корневой директории проекта, чтобы не указывать полные пути до файлов.
+Запуск Python файла
+https://drive.google.com/drive/folders/1C3FNsLysRJbxGyegAaU0pW_XRVLxV0z_?hl=ru
+
+Запуск SQL файла
+https://drive.google.com/drive/folders/1C3FNsLysRJbxGyegAaU0pW_XRVLxV0z_?hl=ru
 
 ### Порядок запуска скриптов:
 
