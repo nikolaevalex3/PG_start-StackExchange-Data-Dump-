@@ -7,14 +7,14 @@
 
 ## Инструкция по запуску
 
-Перед началом работы добавьте в корень проекта две папки с распакованными дампами:
+Перед началом работы добавьте в scripts две папки с распакованными дампами:
 
 - `meta` — содержит данные с сайта `dba.meta.stackexchange.com`. Эта папка уже находится в нужном месте.
 - `main` — распакуйте дамп `dba.stackexchange.com` в эту папку.
 
 Итоговая структура:
 ```
-project-root/
+scripts/
 ├── main/           # дамп dba.stackexchange.com
 ├── meta/           # дамп dba.meta.stackexchange.com
 ├── data_import.sql
