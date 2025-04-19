@@ -36,7 +36,7 @@ def print_fields_summary(fields_by_file):
     print("\nОбъединённый список полей по XML-файлам:\n")
     for filename in sorted(fields_by_file):
         fields = fields_by_file[filename]
-        print(f"📄 {filename} ({len(fields)} полей):")
+        print(f" {filename} ({len(fields)} полей):")
         for field in sorted(fields):
             print(f"   - {field}")
         print()
